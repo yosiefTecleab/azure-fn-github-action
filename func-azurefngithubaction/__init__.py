@@ -19,6 +19,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "This HTTP triggered function executed successfully, after edited using git action again. Pass a name in the query string or in the request body for a personalized response.",
+             "successfully from terminal edited and pushed. Pass a name in the query string or in the request body for a personalized response.",
              status_code=200
         )
